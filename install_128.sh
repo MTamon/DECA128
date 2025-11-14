@@ -1,4 +1,4 @@
-pip install --no-deps chumpy==0.70
+pip install --no-deps chumpy==0.69
 pip install --no-deps Cython==0.29.35
 pip install --no-deps face-alignment==1.4.1
 pip install --no-deps filelock==3.20.0
