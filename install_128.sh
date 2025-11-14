@@ -1,4 +1,5 @@
-pip install --no-deps chumpy==0.69
+python -m pip install --upgrade pip==25.2
+pip install git+https://github.com/mattloper/chumpy.git
 pip install --no-deps Cython==0.29.35
 pip install --no-deps face-alignment==1.4.1
 pip install --no-deps filelock==3.20.0
@@ -53,3 +54,5 @@ pip install --no-deps tqdm==4.67.1
 pip install --no-deps triton==3.5.1
 pip install --no-deps typing_extensions==4.15.0
 pip install --no-deps yacs==0.1.8
+
+cd ./decalib/utils/rasterizer && python setup.py install build_ext -i
